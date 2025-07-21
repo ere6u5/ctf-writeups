@@ -38,6 +38,6 @@ func DecodeBase64(message string, depth int) (string, error) {
 
 The program successfully decrypted the message after processing all layers.
 
-[View full solution on GitHub](https://github.com/ere6u5/ctf-writeups/hackerlab.pro/Entertainment/Recursion/README.md)
+[View full solution on GitHub](https://github.com/ere6u5/ctf-writeups/blob/main/hackerlab.pro/Entertainment/Recursion/README.md)
 
 **#Programming #Linux #HackerLab #Golang**
