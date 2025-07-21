@@ -12,7 +12,7 @@ Decrypt a base64-encoded file with multiple layers of encoding.
 
 **🔧 Solution steps**
 
-  1. Used tail to inspect the file and identified = as the padding charecter, confirming base64 encoding.
+  1. Used tail to inspect the file and identified `=` as the padding charecter, confirming base64 encoding.
 ```bash
 tail -c 5 ./recursion.txt
 ```
