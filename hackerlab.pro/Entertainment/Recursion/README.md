@@ -13,7 +13,10 @@ Decrypt a base64-encoded file with multiple layers of encoding.
 **🔧 Solution steps**
 
   1. Used tail to inspect the file and identified = as the padding charecter, confirming base64 encoding.
+```bash
 tail -c 5 ./recursion.txt
+```
+
   2. Wrote recursive Go program to decode 50 layers of base64.
 ```go
 func DecodeBase64(message string, depth int) (string, error) {
